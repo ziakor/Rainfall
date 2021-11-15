@@ -8,7 +8,6 @@
 
 int main(int argc, char **argv)
 {
-
 	// 0x08048ed4 <+20>:    call   0x8049710 <atoi> //! Utilisation de atoi
 	if (atoi(argv[1]) == 423) //  0x08048ed9 <+25>:    cmp    eax,0x1a7 //! comparaison entre argv[1] et 0x1a7(423)
 	{
